@@ -1,0 +1,56 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.grid {
+    width: 610px;
+    height: 610px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.playerX {
+    background-image: url('blackx.jpg');
+    background-size: cover;
+}
+
+.playerO {
+    background-image: url('redcircle.png');
+    background-size: cover;
+}
+
+.nav {
+    text-align: center;
+    background-image: url('background.jpg');
+    padding: 20px;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+h3, h4 {
+    text-align: center;
+}
+
+.input-and-buttons {
+   padding: 5px;
+}
+
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav a:hover {
+    color: #7AE036
+}
